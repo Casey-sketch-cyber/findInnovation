@@ -14,14 +14,17 @@ Use the whole workflow when a topic is still open. When the topic is fixed and t
 
 Write all outputs in the user's language. Quote Peng's definitions in the original Chinese where this file does.
 
+Reference copy and templates: https://github.com/Casey-sketch-cyber/findInnovation. Keep the Claude account copy of this skill and that repository in sync.
+
 ## Core principles
 
 1. **Value over originality.** Judge an idea by its value to a named user or field and by its room to advance. Never end a discussion with "someone has already done it".
 2. **Similar work is not a verdict; solved work is.** Drop or change a topic only when (a) a simple method or a plain combination of existing methods (A+B) already solves it well, (b) it cannot be done with the available time, data, compute or people, or (c) it would not change anyone's decision. Peng's rule: if A+B or a simple method already solves the problem well, change the topic decisively.
 3. **Aim high within reach.** Peng: "Aim high: 选择个人能力范围内最重要的科研课题。" Importance first, then feasibility.
 4. **Evidence before claims.** Every paper placed in the tree, and every "no one has done X", rests on sources actually opened, with a search date. Unverified items are marked as such.
-5. **Divergence is welcome.** Generate ideas from the problem and from what users need, not only from one paper. Not every published paper is good; weigh prior work by the strength of its evidence.
-6. **One point per paper.** A paper should make one coherent point well. Prefer one solid core contribution plus at most one bold bet.
+5. **Divergence is welcome.** Generate ideas from the problem and from what a decision-maker (designer, user, practitioner, policymaker) needs; use the literature to position ideas, not to generate or veto them. Not every published paper is good: build on or contrast explicitly with large, validated or replicated studies; cite single cases, conceptual analyses or weak venues briefly and don't let them shape the study design.
+6. **Immature ideas get a development path, not a rejection.** Say concretely how the idea could be developed further.
+7. **One point per paper.** A paper should make one coherent point well. Prefer one solid core contribution plus at most one bold bet.
 
 ## Stage 0. Frame the search
 
@@ -135,7 +138,7 @@ Place the idea on Peng's innovation levels, from highest to lowest: a new paradi
 ## Stage 7. Choose, plan the first experiment, and state the value
 
 - **Core contribution**: the defensible point that holds even if the bet fails.
-- **Bold bet**: one more ambitious element with a fixed time box and a fallback.
+- **Bold bet**: one more ambitious element with a fixed time box and a fallback, and a note on how it connects to the person's own expertise.
 - **First experiment**: the smallest experiment that would confirm or kill the core. Peng: reduce the number of exploration points in each experiment; start from controllable parts and simple settings, add one exploratory element at a time.
 - **Development path** for anything immature: next step, evidence needed, what would make it publishable.
 - **Value proposition** in one sentence: what is turned into what, for whom.
@@ -143,6 +146,23 @@ Place the idea on Peng's innovation levels, from highest to lowest: a new paradi
 Then hand over to the paper-writing skill (research-paper-story-writing, repository Casey-sketch-cyber/paperwrite) for the story.
 
 **Output:** `docs/INNOVATION.md` in the project repository, using `templates/INNOVATION_ASSESSMENT_TEMPLATE.md`.
+
+## Compact output (when there is no project repository or the question is quick)
+
+**Value proposition:** one sentence.
+
+**Positioning table**
+
+| Strand / prior work | What it established | Limitation for our question | Evidence strength | What we add (kind of distinction) |
+|---|---|---|---|---|
+
+**Four-situation call** for the chosen topic, with one line of reasoning.
+
+**Divergent options** (incremental to radical): name, distinctive value, feasibility and cost, decision it changes.
+
+**Recommendation:** core contribution; bold bet with a time box and fallback; first experiment.
+
+**Development path** for immature parts.
 
 ## Evidence and wording rules
 
